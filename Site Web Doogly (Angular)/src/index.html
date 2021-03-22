@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Doogly</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+
+  <script type="text/javascript">
+    function confirm_password() {
+      let msg = "Vous allez recevoir un mail de confirmation afin de réinitialiser votre mot de passe dans quelques minutes.";
+      alert(msg);
+    }
+
+    function confirm_compte() {
+      let confirm = "Vous allez recevoir un mail de confirmation afin de confirmer votre compte dans quelques minutes.";
+      alert(confirm);
+    }
+
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+
+    function afficher() {
+      if ( confirm( "Vous allez être redirigé vers la page qui vous permettra de renseigner plus en détails vos informations personnelles. Choisissez celle à laquelle vous appartenez." ) ) {
+        // Code à éxécuter si le l'utilisateur clique sur "OK"
+    } else {
+        // Code à éxécuter si l'utilisateur clique sur "Annuler" 
+    }
+    }
+    
+
+  </script>
+
+
+</head>
+<header>
+  <div>
+    <a href="/login"><img class="profil" width="60" alt="Profil Logo" src="assets/images/user.png"/></a>
+  </div>
+</header>
+<body>
+  <app-root></app-root>
+</body>
+<footer>
+  <a class="underlineHover" href="/">
+    <a href="https://fr-fr.facebook.com/pages/category/App-Page/Doogly-613262975755941/"><img class="fb" src="assets/images/fb.png"></a>
+    <a href="https://twitter.com/etna_io?lang=fr"><img class="tw" src="assets/images/tw.png"></a>
+  </a>
+    <div class="inner">
+      <div class="flex">
+        <div class="copyright">
+          &copy; 2019 - Copyright Doogly Corporation. 
+        </div>
+      </div>
+    </div>
+</footer>
+</html>
