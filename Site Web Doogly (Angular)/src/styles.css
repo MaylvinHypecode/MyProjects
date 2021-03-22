@@ -1,0 +1,37 @@
+#formFooter {
+    border-top: 1px solid red;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  .fb {
+      width: 2%;
+      height: 25px;
+      position: fixed;
+      bottom: 5%;
+      margin-left: 46%;
+  }
+  .tw {
+      width: 2%;
+      height: 25px;
+    position: fixed;
+    bottom: 5%;
+      margin-left: 51%;
+  }
+
+  .copyright {
+    color: black;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 1%;
+    margin-left: 42.5%;
+}
+
+
+.profil {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+

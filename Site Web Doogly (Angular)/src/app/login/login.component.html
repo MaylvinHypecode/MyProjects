@@ -1,0 +1,30 @@
+<body>
+    <header>
+      <div class="bandeau">
+        <a routerLink="/"><img class="image" width="140" alt="Doogly Logo" src="assets/images/doogly.png"/></a>
+      </div>
+    </header>
+  
+  <div class="section1">
+  
+    <div class="formulaire">
+  
+      <div class="center fadeInDown">
+        
+        <h2 class="active">Se connecter</h2>
+       <h2><a class="inactive underlineHover" routerLink="/register">S'inscrire</a></h2>
+
+
+        <form>
+          <input type="email" class="fadeIn second"  placeholder="E-mail" required>
+          <input type="password"  class="fadeIn third"  placeholder="Mot de passe" required>
+          <input type="submit" class="fadeIn fourth" routerLink="/home" value="Connexion">
+        </form>
+    
+        <div id="formFooter">
+          <a class="underlineHover" routerLink="/password">Mot de passe oublié ? Cliquez ici !</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
